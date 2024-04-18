@@ -11,6 +11,10 @@ footer {
   display: flex;
   gap: 5.5rem;
 }
+.bLogo img {
+  width: 139px;
+  height: 37.55px;
+}
 .container-footer h3 {
   font-family: "Britanic";
   font-size: 1.125rem;

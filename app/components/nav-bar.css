@@ -17,6 +17,10 @@ header {
   align-items: center;
   gap: 3rem;
 }
+.container-header .left img {
+  width: 92px;
+  height: 24.86px;
+}
 .navBtn {
   display: flex;
 }

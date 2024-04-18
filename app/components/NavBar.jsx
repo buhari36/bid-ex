@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import "./nav-bar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Link from "next/link";
-import Logo from "../../public/logo.png";
+import Logo from "../../public/logo1.png";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { IoChevronDown } from "react-icons/io5";
