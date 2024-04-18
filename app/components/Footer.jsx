@@ -1,6 +1,6 @@
 import Image from "next/image";
 import "./footer.css";
-import Logo from "../../public/logo1.png";
+import Logo from "../../public/logo.png";
 import Location from "../../public/location.svg";
 import Mail from "../../public/mail.svg";
 import Link from "next/link";
