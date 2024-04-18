@@ -1,0 +1,59 @@
+.elige {
+  padding-top: 2rem;
+  padding-bottom: 1.5rem;
+}
+.elige h1 {
+  font-size: 2.625rem;
+  font-weight: 400;
+  line-height: 3.25rem;
+  text-align: center;
+  color: #12141d;
+  padding-bottom: 5rem;
+}
+.elige h2 {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  color: #12141d;
+  padding-bottom: 1rem;
+  padding-top: 1.5rem;
+}
+.elige p {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.625rem;
+  font-family: "Britanic";
+  padding-bottom: 1rem;
+}
+.eligTabs {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.eligTab {
+  width: 28.33%;
+}
+.eli {
+  display: grid;
+  grid-auto-rows: 90px auto;
+}
+
+@media screen and (max-width: 834px) {
+  .eligTabs {
+    display: flex;
+    flex-direction: column;
+  }
+  .eligTab {
+    width: 100%;
+  }
+  .eli {
+    display: grid;
+    grid-auto-rows: 60px auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .eligTabs {
+    gap: 2rem;
+  }
+}
