@@ -190,6 +190,10 @@ header nav a:hover {
   .navBtn {
     margin-bottom: 21rem;
   }
+  .container-header .left img {
+    width: 92px;
+    height: 24.86px;
+  }
   /* .button .main-btn {
     padding: 1rem;
     gap: 10px;
